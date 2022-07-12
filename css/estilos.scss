@@ -230,3 +230,25 @@ object-fit: cover;
     align-items: center;
     justify-content: center;
 }
+
+#subir__arriba{
+    width: 70px;
+    height: 70px;
+    background: rgb(187, 187, 187);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    position: fixed;
+    bottom: 20px;
+    cursor: pointer;
+    display: none;
+    margin: 50px;
+    border-radius: 50%;
+    box-shadow: 10px 1px 8px black;
+}
+
+.body{
+    scroll-behavior: smooth;
+}
