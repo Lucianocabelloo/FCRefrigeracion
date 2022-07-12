@@ -40,6 +40,7 @@
 .card{
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 .card-img-top{
     height: 200px;
@@ -59,7 +60,6 @@ font-weight: bold;}
 
 .contenedor-horarios-contacto{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     margin: 30px;
     margin-top: 150px;
@@ -76,7 +76,7 @@ font-weight: bold;}
     color: black;
     background-color: rgb(21, 52, 148);
     color: white;
-    @include sombras-negras();
+    box-shadow: 5px 5px 5px rgb(24, 23, 23);
     border-radius: 25px;
 }
 .contenedor-contacto{
@@ -90,7 +90,7 @@ font-weight: bold;}
     color: black;
     background-color: rgb(21, 52, 148);
     color: white;
-    @include sombras-negras();
+    box-shadow: 5px 5px 5px rgb(22, 22, 22);
     border-radius: 25px;
 }
 
@@ -251,7 +251,13 @@ object-fit: cover;
     border-radius: 50%;
     box-shadow: 10px 1px 8px black;
 }
+.contenedor-contacto h3{
+    text-align: center;
+}
 @media (max-width: 769px){
+    .contenedor-horarios-contacto{
+        flex-wrap: wrap;
+    }
     .footer-contenedor{
         flex-direction: column;
         padding: 50px 0px;
