@@ -1,0 +1,254 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+}
+
+.contenedor-header {
+  display: flex;
+  align-items: center;
+  background-color: #e2e2e2;
+}
+
+.header-logo {
+  align-items: center;
+}
+.header-logo .logo {
+  height: 200px;
+  width: 200px;
+}
+
+.header-eslogan {
+  margin: auto;
+  text-shadow: 2px 1px 1px white;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px;
+  background-color: rgb(21, 52, 148);
+  gap: 50px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card-img-top {
+  height: 200px;
+  width: 200px;
+}
+
+.card-title {
+  font-size: 1, 4rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1, 2rem;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.contenedor-horarios-contacto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px;
+  margin-top: 150px;
+  gap: 30px;
+}
+
+.contenedor-horarios {
+  width: 700px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+  color: black;
+  background-color: rgb(21, 52, 148);
+  color: white;
+  text-shadow: 2px 1px 1px black;
+  border-radius: 25px;
+}
+
+.contenedor-contacto {
+  width: 700px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+  color: black;
+  background-color: rgb(21, 52, 148);
+  color: white;
+  text-shadow: 2px 1px 1px black;
+  border-radius: 25px;
+}
+
+.container-fluid {
+  padding: 0px;
+  margin-bottom: 50px;
+}
+
+.carousel-inner {
+  height: 60vh;
+  -o-object-position: top;
+     object-position: top;
+  -o-object-fit: cover;
+     object-fit: cover;
+  color: white !important;
+  text-shadow: 3px 2px 2px black;
+  font-size: 1.4rem !important;
+}
+
+.d-block {
+  height: 60vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.navbar-light {
+  background-color: rgb(21, 52, 148) !important;
+  color: white !important;
+}
+
+.contenedor-navbar {
+  margin-bottom: 0px;
+  padding-left: 20px;
+}
+
+.navbar {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-style: italic;
+  text-shadow: 2px 1px 1px black;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-toggler {
+  border: 2px solid;
+}
+
+.fondo-letras {
+  background-color: rgba(2, 2, 2, 0.5);
+  border-radius: 25px;
+}
+
+.marca {
+  height: 150px;
+  width: 150px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.contenedor-marca {
+  height: 150px;
+  width: 300px;
+  text-align: center;
+}
+
+.row {
+  justify-content: center;
+}
+
+.ubicacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ubicacion-mapa {
+  text-align: center;
+}
+
+.Sectores h2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.sectores-ul {
+  margin: 0px;
+}
+
+.sectores-li {
+  font-size: 0.8rem;
+}
+
+.footer-contenedor {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: rgb(21, 52, 148);
+  color: white;
+  text-shadow: 2px 1px 1px black;
+}
+
+.Sectores {
+  text-align: left;
+  margin-top: 100px;
+  margin-right: 20px;
+}
+
+.footer-contacto {
+  text-align: left;
+  margin-top: 100px;
+  margin-right: 20px;
+}
+
+.contacto-ul {
+  margin: 0px;
+}
+
+.contacto-li {
+  font-size: 0.8rem;
+}
+
+.contacto h2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.boton-contacto {
+  width: 300px;
+  height: 150px;
+}
+
+.botones-contacto {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.boton-telefono {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=estilos.css.map */
